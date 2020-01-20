@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="de">
+
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="">
+		<style>
+		fieldset {
+			display: inline-block;
+			width: 300px;
+		}
+		</style>
+	</head>
+
+	<body>
+		<form action="playground.html" method="get">
+
+			<fieldset>
+				<legend>Personendaten:</legend>
+				<label for="name">Name:</label>
+				<input id="name" type="text" name="name" placeholder="Dein Name"><br><br>
+				<label for="männlich">Männlich</label>
+				<input id="männlich" type="radio" name="geschlecht" value="m">Männlich
+				<label for="weiblich">Weiblich</label>
+				<input id="weiblich" type="radio" name="geschlecht" value="w">Weiblich<br><br>
+			</fieldset>
+
+			<br>
+			<br>
+
+			<fieldset>
+				<legend>Login-Daten:</legend>
+				<label for="Email">Email</label>
+				<input id="Email" type="email" name="email" placeholder="Deine Email Adresse"><br><br>
+				<label for="Passwort">Passwort</label>
+				<input id="Passwort" type="password" name="passwort" placeholder="Dein Passwort"><br><br>
+			</fieldset>
+
+			<br>
+			<br>
+			<button type="submit">Abschicken!</button>
+		</form>
+
+<br><br><br>
+
+		<form action="playground.html" method="post">
+			<label for="email">Email:</label>
+			<input type="text" id="email" name="email" pattern="^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$" title="Email!"><br><br>
+			<button type="submit">Send</button>
+		</form>
+	</body>
+</html>

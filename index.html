@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="de">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Startseite</title>
+
+		<!-- FAVICONS -->
+		<link rel="apple-touch-icon" sizes="180x180" href="./src/img/favicons/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="./src/img/favicons/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="./src/img/favicons/favicon-16x16.png">
+		<link rel="manifest" href="./src/img/favicons/site.webmanifest">
+		<link rel="mask-icon" href="./src/img/favicons/safari-pinned-tab.svg" color="#5bbad5">
+		<link rel="shortcut icon" href="./src/img/favicons/favicon.ico">
+		<meta name="msapplication-TileColor" content="#f0f0f0">
+		<meta name="msapplication-config" content="./src/img/favicons/browserconfig.xml">
+		<meta name="theme-color" content="#ffffff">
+
+
+		<!-- AUTOREN-STYLESHEET -->
+		<link rel="stylesheet" type="text/css" href="src/css/styles.css">
+
+	</head>
+
+	<body>
+
+		<!--NAVIGATION -->
+		<nav id="header-nav">
+			<!--DESKTOP-NAVIGATION -->
+			<div class="container" id="desktop-nav">
+				<div class="row">
+					<div class="col-6">
+						<a href="index.html" alt="Startseite" class="logo-link">
+							<img src="src/img/webdesign-logo.png" alt="Webdesign Logo klein">
+						</a>
+						<ul>
+							<li class="active"><a href="index.html">Startseite</a></li>
+							<li><a href="leistungen.html">Leistungen</a></li>
+							<li><a href="kontakt.html">Kontakt</a></li>
+							<li><a href="impressum.html">Impressum</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<!--MOBILE-NAVIGATION -->
+			<div class="container" id="mobile-nav">
+				<div class="row">
+					<div class="col-6">
+						<a href="index.html" alt="Startseite">
+							<img src="src/img/webdesign-logo.png" alt="Webdesign Logo klein">
+						</a>
+						<div id="mobile-nav-dropdown" >
+							<div id="mobile-nav-button"><span>&equiv;</span></div>
+							<div id="mobile-nav-content">
+								<ul>
+									<li class="active"><a href="index.html">Startseite</a></li>
+									<li><a href="leistungen.html">Leistungen</a></li>
+									<li><a href="kontakt.html">Kontakt</a></li>
+									<li><a href="impressum.html">Impressum</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</nav>
+
+		<!-- Header-Banner -->
+		<!--<img id="mainBanner" src="src/img/hintergrund.jpg" alt="Hintergrundbild Zug">-->
+
+					<header id="header-banner"></header>
+
+
+
+		<!--newsletter-bereich-->
+		<section id="newsletter-bereich">
+			<div class="container">
+				<div class="row">
+					<div class="col-4">
+
+						<p id="nb-werbetext"><span class="wichtiger-text">Melde dich jetzt für den Newsletter an und verpasse
+							nichts mehr!</span> Wir schicken dir nur interessante Informationen!</p>
+					</div>
+					<div class="col-2 clearfix" >
+						<form name="nb-email-form" id="nb-form" action="index.html" method="get">
+							<label class="screenreader" for="nb-email-input">Email:</label>
+							<input  id="nb-email-input" type="text" name="email" placeholder="Deine E-Mail Adresse"
+							pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+							title="Bitte gib deine E-Mail Adresse ein">
+
+							<button class="btn-typ-1" id="nb-btn" type="submit">Jetzt anmelden!</button>
+						</form>
+					</div>
+				</div>
+			</div>
+			</section>
+
+			<!--LOGO -->
+			<div id="animiertes-logo">
+				<img src="./src/img/webdesign-logo-klein.png" alt="Logo Webdesign">
+			</div>
+
+
+		<!--Leistungen-BEREICH-->
+		<section id="leistungen-bereich">
+			<div class="container">
+				<div class="row">
+					<div class="col-6">
+						<header class="intro-container">
+							<h1>Webdesign made simple!</h1>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.	</p>
+						</header>
+					</div>
+				</div>
+				<hr id="styleRule">
+				<div class="row">
+					<div class="col-3">
+						<article class="leistungs-teaser-box">
+							<h2>Leistung #1</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+							<a class="btn-typ-2 leistung-ansehen-btn" href="leistungen.html#leistung1">Ansehen</a>
+						</article>
+					</div>
+					<div class="col-3">
+						<article class="leistungs-teaser-box">
+							<h2>Leistung #2</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.	</p>
+							<a  class="btn-typ-2 leistung-ansehen-btn" href="leistungen.html#leistung2">Ansehen</a>
+						</article>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-3">
+						<article class="leistungs-teaser-box">
+							<h2>Leistung #3</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+							<a  class="btn-typ-2 leistung-ansehen-btn" href="leistungen.html#leistung3">Ansehen</a>
+						</article>
+					</div>
+					<div class="col-3">
+						<article class="leistungs-teaser-box">
+							<h2>Leistung #4</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.	</p>
+							<a  class="btn-typ-2 leistung-ansehen-btn" href="leistungen.html#leistung4">Ansehen</a>
+						</article>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!--VIDEO-BEREICH-->
+		<section id="video-bereich">
+			<div class="container">
+						<div class="row">
+							<div class="col-6">
+								<header class="intro-container">
+									<h1>Vader Video</h1>
+									<p>
+										VADER EPISODE 1: SCHERBEN DER VERGANGENHEIT - Star Wars Theory Fanfilm
+										Anakin Skywalker ist TOT.
+										Seit acht Monaten erfüllt der mysteriöse Darth Vader die Befehle des Imperators.
+										Im inneren Kampf zwischen dem Verlust Padmés und seinem neuen schmerzerfülltem Leben,
+										muss Vader tun was getan werden muss, als ihn ein überlebender Jedi der Order 66 zum
+										Grab seiner verstorbenen Frau lockt...
+									</p>
+								</header>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-6">
+								<video src="./src/mov/vader.mp4" controls id="video">
+									<p>	Falls Sie hier kein Video sehen, gehen Sie auf:<br>
+										<a href="https://www.youtube.com/watch?time_continue=290&v=Ey68aMOV9gc">hier</a>.
+									</p>
+								</video>
+							</div>
+						</div>
+					</div>
+		</section>
+
+		<!--SERVICE-BEREICH -->
+		<section id="service-bereich">
+			<div class="container">
+				<div class="row">
+					<div class="col-6">
+						<header class="intro-container">
+							<h1>Unsere Services</h1>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						</header>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-2">
+						<article class="service-box">
+							<div id="guenstig-icon" class="service-icon"></div>
+							<h1>Günstige Angebote</h1>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+						</article>
+					</div>
+					<div class="col-2">
+						<article class="service-box">
+							<div id="schnell-icon" class="service-icon"></div>
+							<h1>Schnelle Lieferung</h1>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+						</article>
+					</div>
+					<div class="col-2">
+						<article class="service-box">
+							<div id="modern-icon" class="service-icon"></div>
+							<h1>Modernes Design</h1>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+						</article>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- ÜBER-UNS-BEREICH -->
+		<section id="über-uns-bereich">
+			<div class="container">
+				<div class="row">
+					<div class="col-6">
+						<header class="intro-container">
+							<h1>Das sind wir</h1>
+						</header>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-6">
+						<article id="über-uns-container">
+							<p>Lorem ipsum dolor amet mustache la croix ugh street art salvia swag pok pok kale chips. Letterpress synth tattooed austin enamel pin chambray artisan kinfolk tote bag franzen put a bird on it fam gastropub chia. Gochujang fashion axe austin craft beer etsy humblebrag try-hard lomo tumblr occupy PBR&B mustache snackwave dreamcatcher meh. Skateboard butcher jean shorts af, woke literally microdosing mustache truffaut. Cronut cred keffiyeh pop-up.
+								Lorem ipsum dolor amet mustache la croix ugh street art salvia swag pok pok kale chips. Letterpress synth tattooed austin enamel pin chambray artisan kinfolk tote bag franzen put a bird on it fam gastropub chia. Gochujang fashion axe austin craft beer etsy humblebrag try-hard lomo tumblr occupy PBR&B mustache snackwave dreamcatcher meh. Skateboard butcher jean shorts af, woke literally microdosing mustache truffaut. Cronut cred keffiyeh pop-up.
+							</p>
+							<p>Celiac williamsburg taxidermy, sustainable ramps seitan hoodie cred copper mug banjo poke kombucha raclette deep v. Meggings selvage authentic man braid crucifix drinking vinegar typewriter prism gluten-free. Keytar vexillologist sriracha, tofu migas distillery keffiyeh gochujang tote bag cred bicycle rights echo park twee. Small batch lyft bitters skateboard asymmetrical chillwave dreamcatcher selvage aesthetic pickled four loko tbh chicharrones ugh irony. Umami next level post-ironic synth, letterpress gentrify direct trade tilde pour-over fanny pack hashtag. Vexillologist tote bag shaman gochujang paleo hell of.
+								Lorem ipsum dolor amet mustache la croix ugh street art salvia swag pok pok kale chips. Letterpress synth tattooed austin enamel pin chambray artisan kinfolk tote bag franzen put a bird on it fam gastropub chia. Gochujang fashion axe austin craft beer etsy humblebrag try-hard lomo tumblr occupy PBR&B mustache snackwave dreamcatcher meh. Skateboard butcher jean shorts af, woke literally microdosing mustache truffaut. Cronut cred keffiyeh pop-up.
+							</p>
+							<p>
+								Lorem ipsum dolor amet mustache la croix ugh street art salvia swag pok pok kale chips. Letterpress synth tattooed austin enamel pin chambray artisan kinfolk tote bag franzen put a bird on it fam gastropub chia. Gochujang fashion axe austin craft beer etsy humblebrag try-hard lomo tumblr occupy PBR&B mustache snackwave dreamcatcher meh. Skateboard butcher jean shorts af, woke literally microdosing mustache truffaut. Cronut cred keffiyeh pop-up.
+								3 wolf moon four loko thundercats, man braid art party jean shorts heirloom knausgaard portland DIY. Seitan shaman paleo meh fam, authentic flexitarian master cleanse literally mlkshk. Messenger bag 3 wolf moon before they sold out pork belly vexillologist pinterest, chillwave organic art party hashtag fashion axe YOLO unicorn butcher. Vegan skateboard shoreditch, gluten-free succulents pour-over pinterest ennui four loko iceland asymmetrical enamel pin master cleanse wayfarers. Food truck biodiesel live-edge subway tile.
+							</p>
+							<img src="./src/img/webdesign-logo-vertical.png" alt="Logo von Webdesign">
+						</article>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- FOOTER -->
+		<footer id="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-6">
+						<span>WEBDESIGN made simple by Marc Ludovici (2018)</span>
+						<nav id="footer-nav">
+							<a href="impressum.html">Impressum</a>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+
+
+	</body>
+</html>
